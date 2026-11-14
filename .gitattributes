@@ -1,0 +1,14 @@
+# 项目运行在 Ubuntu(Linux) 里，脚本必须是 LF，否则容器内 bash 报 $'\r' 错误
+* text=auto eol=lf
+
+# 权重与音频等二进制文件不要做换行转换
+*.pt binary
+*.pth binary
+*.onnx binary
+*.index binary
+*.wav binary
+*.mp3 binary
+*.flac binary
+*.png binary
+*.jpg binary
+*.zip binary

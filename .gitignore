@@ -1,0 +1,35 @@
+# IDE / 本地工作目录
+.trae/
+.agents/
+.UI/
+.new ui-v4/
+
+# 体积/历史归档（合计约 22 GB，绝不入库）
+.Version/
+.tools/
+.qa/
+*.tar.gz
+*.tar.xz
+*.zip
+*.apk
+
+# 旧仓库留档
+.git.old-*/
+
+# 运行时产物
+uploads/
+outputs/
+server.log
+
+# Python 缓存与备份
+__pycache__/
+*.pyc
+*.pyo
+*.bak
+*.bak_*
+
+# 预训练权重（单个 172~181 MB，超过 GitHub 100 MB 硬限制）
+assets/hubert/*
+!assets/hubert/.gitignore
+assets/rmvpe/*
+!assets/rmvpe/.gitignore
